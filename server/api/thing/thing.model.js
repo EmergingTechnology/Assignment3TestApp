@@ -5,6 +5,9 @@ var mongoose = require('mongoose'),
 
 var ThingSchema = new Schema({
   name: String,
+  name1: String,
+  name2: String,
+  name3: String,
   info: String,
   active: Boolean
 });
